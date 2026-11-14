@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+env/
+venv/
+ENV/
+
+# Directorio completo de datos locales (generados por el pipeline ETL)
+data/
+
+# Sistema y respaldos temporales
+.DS_Store
+Thumbs.db
+*.log
