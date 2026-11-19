@@ -34,8 +34,8 @@ tar.gz for backup.
 ```mermaid
 graph LR
 A[PubChem] --> C(fetch)
-C --> M["data/&lt;cid&gt;/manifest"]
-C --> S["data/&lt;cid&gt;/sdf-2d-3d"]
+C --> M["data/{cid}/manifest"]
+C --> S["data/{cid}/sdf-2d-3d"]
 M --> P(parse)
 S --> P
 P --> J[json-2d,3d]
