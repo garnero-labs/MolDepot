@@ -11,6 +11,9 @@ ENV/
 # Directorio completo de datos locales (generados por el pipeline ETL)
 data/
 
+# Working file.
+catalog/delta.txt
+
 # Sistema y respaldos temporales
 .DS_Store
 Thumbs.db

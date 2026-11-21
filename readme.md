@@ -14,8 +14,8 @@ An ad-hoc repository for chemical compounds, a simplified version of [PubChem](h
 │       ├── manifest.json.      &lt;- Metadata (IUPAC name, Molecular formula)
 │       ├── raw.2d.sdf.         &lt;- 2D Geometry + connectivity.
 │       ├── raw.3d.sdf          &lt;- 3D Geometry + connectivity.
-│       ├── 297.2d.json         &lt;- 2D Json = manifest.json + raw.2d.sdf
-│       └── 297.3d.json         &lt;- 3D Json = manifest.json + raw.3d.sdf
+│       ├── 2d.json             &lt;- 2D Json = manifest.json + raw.2d.sdf
+│       └── 3d.json             &lt;- 3D Json = manifest.json + raw.3d.sdf
 ├── scripts/
 │   ├── fetch.py                &lt;- PubChem.       --&gt; data
 │   ├── parse.py                &lt;- sdf + manifest --&gt; json
@@ -62,7 +62,7 @@ B --> D[data]
 
 * reads `manifest.json`, `raw.2d.sdf` , `raw.3d.sdf`.
 
-* generates: `<CID>.2d.json` and `<CID>.3d.json` if possible.
+* generates: `2d.json` and `3d.json` if possible.
 
 *  **Command:**  `python3 scripts/parse.py <CID>`
 
