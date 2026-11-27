@@ -4,6 +4,10 @@ An ad-hoc repository for chemical compounds, a simplified version of [PubChem](h
 
 ---  
 
+## License
+
+This project is licensed under the **GNU General Public License v3.0 (GPLv3)**. See the [LICENSE](LICENSE) file for the full text.
+
 ## 1. Folders
 
 <pre style="white-space: pre; font-family: monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo; background-color: #f6f8fa; padding: 16px; border-radius: 6px; overflow-x: auto; line-height: 1.45; font-size: 85%;"><code>MolDepot/
